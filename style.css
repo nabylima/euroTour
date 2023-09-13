@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+body {
+    background-image: url(./bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: absolute;
+    margin: 2; 
+}
+
+.menu {
+    text-align: center;
+    display: inline;
+}
+
+.logo {
+    width: 100px;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.sobre {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.menu_rodape {
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    width: 750px;
+    height: 300px;
+    text-align: center;
+}
+
+.container_img {
+    display: inline-block;
+    width: 450px;
+    height: 350px;
+}
+
+.redes_sociais {
+    display: flex;
+    justify-content: center; 
+}
+
+h3 {
+    text-align: center;
+}
